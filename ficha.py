@@ -39,13 +39,13 @@ def ficha():
     esp = nombrebien.find(" ")
     print(f"Iniciales: {nombrebien[0] + nombrebien[esp+1]}")
     partes = nombrebien.split(" ")
-    print(f"Usuario: {partes[1].lower() +"."+partes[0].lower()}")
-    print(f"Email valido: {"@" in Email}")
+    print(f"Usuario: {partes[1].lower() +'.'+partes[0].lower()}")
+    print(f"Email valido: {'@' in Email}")
     pos = Email.find("@")
     dominio = Email[pos+1:]
     print(f"Dominio: {dominio.lower()}")
-    print(f"Nombre para archivo: {nombrebien.replace(" ", "_")}")
-    print(f"Cantidad de a: {nombrebien.lower().count("a")}")
+    print(f"Nombre para archivo: {nombrebien.replace(' ', '_')}")
+    print(f"Cantidad de a: {nombrebien.lower().count('a')}")
     print(f"Codigo secreto: {nombrebien[::-1].upper()}")
     print(f"Nota 1: {Texto1}")
     print(f"Nota 2: {Texto2}")
@@ -62,4 +62,4 @@ def ficha():
     print("="*24)
 
 
-ficha()
+

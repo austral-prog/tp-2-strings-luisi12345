@@ -5,4 +5,3 @@ def slice_advanced():
     Texto = input("Ingresar texto:")
     print(Texto[4:13:2])
 
-slice_advanced()
